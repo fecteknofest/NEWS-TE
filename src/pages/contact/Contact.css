@@ -1,0 +1,49 @@
+/* Ana konteyner */
+.cv {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Başlık stilleri */
+.cv h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Metin stil */
+.cv p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+/* Alt başlık stilleri */
+.cv h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+/* Bağlantılar container */
+.aboutLinks {
+  margin-top: 20px;
+}
+
+/* Bağlantıların stil */
+.indexBtn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Bağlantıların üzerine gelince gölge */
+.indexBtn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

@@ -6,6 +6,27 @@
   height: 40vmin;
   pointer-events: none;
 }
+ 
+::-webkit-scrollbar {
+  width: 5px;  
+}
+
+/* Dikey scrollbar'ın izdüşümü (gölgesi) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* scrollbar izdüşümü rengi */
+}
+
+/* Scrollbar çubuğu (kaydırma kolu) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* scrollbar çubuğu rengi */
+  border-radius: 5px; /* scrollbar çubuğunun köşe yarıçapı */
+}
+
+/* Kaydırma kolu üzerine gelindiğinde */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* scrollbar çubuğu rengi */
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

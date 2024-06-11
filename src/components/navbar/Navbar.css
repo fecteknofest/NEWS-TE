@@ -22,16 +22,20 @@
   height: auto;
 }
 
-.title{
+.title {
   margin: 0;
+  padding-left: 1rem;
 }
 
 /* Navbar linkleri */
 .navbar-links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: 100%;
+  width: 100%;
+  padding-right: 50px;
+
 }
 
 .navbar-links ul {
@@ -42,7 +46,17 @@
 }
 
 .navbar-links ul li {
-  margin-left: 20px;
+  margin: 0;  
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding:5px 10px ;
+
+  transition: all 0.2s;
+}
+
+.navbar-links ul li:hover{
+  background-color: #2fb0b24d;
+  /* border-color: #2fafb2; */
 }
 
 .nav-link {
